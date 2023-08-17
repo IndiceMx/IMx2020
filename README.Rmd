@@ -1,0 +1,53 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# IM2020 (Paquete)
+
+<!-- badges: start -->
+
+<!-- badges: end -->
+
+The goal of IM2020 is to ...
+
+## Installation
+
+You can install the development version of IM2020 from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("IndiceMx/IMx2020")
+```
+
+## Example
+
+This is a basic example which shows you how to solve a common problem:
+
+```{r example}
+library(IM2020)
+## basic example code
+```
+
+Example: 
+
+```{r}
+summary(IME_2020)
+```
+Rows head of localities data frame
+
+```{r}
+head(IML_2020)
+```
+
+

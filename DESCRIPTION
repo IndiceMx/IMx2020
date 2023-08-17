@@ -1,0 +1,20 @@
+Package: IM2020
+Type: Package
+Title: Indice de marginación 2020
+Version: 0.1
+Date: 2023-01-08
+Author: CONAPO <dpdrs@conapo.gob.mx>
+Maintainer: CONAPO <dpdrs@conapo.gob.mx>
+Description: En este repositorio se encuentras disponibles las bases de datos del 
+    índice de marginación en los diferentes niveles de desagregación geográfica para el año 2020.
+License: GPL-3 + file LICENSE
+Encoding: UTF-8
+Depends:
+    R (>= 3.4.4)
+LazyData: TRUE
+LazyDataCompression: xz
+RoxygenNote: 7.2.3
+Suggests: 
+    testthat (>= 3.0.0), 
+    dplyr
+Config/testthat/edition: 3
