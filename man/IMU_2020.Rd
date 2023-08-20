@@ -46,5 +46,6 @@ sociodemográficos, índice y grado de marginación.
 }
 
 \examples{
-head(IMU_2020)
+\dontrun{head(IMU_2020)}
 }
+\keyword{datasets}

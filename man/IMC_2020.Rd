@@ -48,5 +48,6 @@ sociodemográficos, índice y grado de marginación.
 }
 
 \examples{
-head(IMC_2020)
+\dontrun{head(IMC_2020)}
 }
+\keyword{datasets}

@@ -1,3 +1,12 @@
 ^IM2020\.Rproj$
 ^\.Rproj\.user$
 ^README\.Rmd$
+^LICENSE\.md$
+^Github_link\.R$
+^_pkgdown\.yml$
+^codecov\.yml$
+^\.github$
+inst/doc
+inst/doc/*
+^pkgdown$
+^docs$

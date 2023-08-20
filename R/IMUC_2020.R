@@ -38,7 +38,5 @@
 #' @usage IMC_2020
 #' @format A data frame with 74226 observations on the following 25 variables.
 #' @examples
-#' head(IMC_2020)
-
-load('inst/IMC_2020.RData')
-
+#' \dontrun{head(IMC_2020)}
+"IMC_2020"

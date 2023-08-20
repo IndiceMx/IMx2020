@@ -1,33 +1,63 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# IM2020 (Paquete)
+# Indice de Marginación, 2020
 
 <!-- badges: start -->
+
+[![Coveralls test
+coverage](https://coveralls.io/repos/github/IndiceMx/IMx2020/badge.svg)](https://coveralls.io/r/IndiceMx/IMx2020?branch=main)
+[![Codecov test
+coverage](https://codecov.io/gh/IndiceMx/IMx2020/branch/main/graph/badge.svg)](https://app.codecov.io/gh/IndiceMx/IMx2020?branch=main)
+[![R-CMD-check](https://github.com/IndiceMx/IMx2020/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/IndiceMx/IMx2020/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
-The goal of IM2020 is to …
+El Índice de Marginación es una herramienta desarrollada por el Consejo
+Nacional de Población (`CONAPO`) en México, que tiene como objetivo
+medir los niveles de marginación en diferentes áreas geográficas. Este
+índice es fundamental para identificar las disparidades socioeconómicas
+entre regiones y para orientar la asignación de recursos y políticas
+públicas de manera equitativa y efectiva.
 
-## Installation
+El CONAPO ha cambio la metodología utilizada para calcular el índice de
+marginación, y una de las más recientes es la Metodología de Distancias
+$DP_2$. Esta metodología busca medir la marginación considerando
+factores multidimensionales, tales como educación, vivienda, ingresos,
+acceso a servicios de salud, entre otros. Lo cual es una mejora respecto
+a sus predecesoras, ya que integra diferentes indicadores
+socioeconómicos en un índice cardinal y, además permite la comparación
+entre unidades geográficas e intertemporales.
 
-You can install the development version of IM2020 from
-[GitHub](https://github.com/) with:
+La desagregación se refiere a la subdivisión de los datos en niveles más
+pequeños y específicos. En el contexto del índice de marginación, esto
+implica analizar la marginación en diferentes niveles geográficos, como:
+
+🔹 `Estados`,  
+🔹 `Municipios`,  
+🔹 `Localidades`,  
+🔹 `Áreas Geoestadística Básicas (AGEB)`, y  
+🔹 `Colonias`.
+
+## Instalación
+
+Puede instalar la versión de desarrollo de IM2020 desde
+[GitHub](https://github.com/) con:
 
 ``` r
 # install.packages("devtools")
 devtools::install_github("IndiceMx/IMx2020")
 ```
 
-## Example
+## Ejemplo
 
-This is a basic example which shows you how to solve a common problem:
+Este es un ejemplo básico que muestra cómo leer los datos:
 
 ``` r
 library(IM2020)
 ## basic example code
 ```
 
-Example:
+Ejemplo:
 
 ``` r
 summary(IME_2020)
@@ -61,7 +91,7 @@ summary(IME_2020)
 #>  Max.   :23.44                      Max.   :0.8625
 ```
 
-Rows head of localities data frame
+Las primeras observaciones de la base de localidades, 2020.
 
 ``` r
 head(IML_2020)

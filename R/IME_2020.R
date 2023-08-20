@@ -28,6 +28,5 @@
 #' @usage IME_2020
 #' @format A data frame with 32 observations on the following 15 variables.
 #' @examples
-#' head(IME_2020)
-
-load('data/IME_2020.RData')
+#' \dontrun{head(IME_2020)}
+"IME_2020"

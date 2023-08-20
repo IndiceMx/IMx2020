@@ -32,6 +32,5 @@
 #' @usage IML_2020
 #' @format A data frame with 110239 observations on the following 19 variables.
 #' @examples
-#' head(IML_2020)
-
-load('inst/IML_2020.RData')
+#' \dontrun{head(IML_2020)}
+"IML_2020"

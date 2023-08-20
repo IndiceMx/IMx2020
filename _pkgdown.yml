@@ -1,0 +1,25 @@
+url: https://indicemx.github.io/IMx2020/
+template:
+  params:
+    bootswatch: flatly
+reference:
+- title: Bases de datos
+  desc: Bases de datos que se encuentran en el repositorio
+  contents:
+  - IME_2020
+  - IMM_2020
+  - IML_2020
+  - IMU_2020
+  - IMC_2020
+navbar:
+  type: default
+  left:
+  - href: index.html
+    icon: fa-home
+  - text: Reference
+    href: reference/index.html
+  - text: Articles
+    menu:
+    - text: Indicadores
+      href: articles/IME_distribution.html
+
